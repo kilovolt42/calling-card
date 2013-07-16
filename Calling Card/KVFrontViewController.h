@@ -6,8 +6,6 @@
 //  Copyright (c) 2013 kilovolt42. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface KVViewController : UIViewController
+@interface KVFrontViewController : UIViewController
 
 @end

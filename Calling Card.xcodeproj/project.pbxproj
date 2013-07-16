@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		271F76E71781D084002D2849 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271F76E61781D084002D2849 /* AddressBook.framework */; };
+		271F77001781EFCC002D2849 /* KVBackEmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271F76FF1781EFCC002D2849 /* KVBackEmailViewController.m */; };
+		271F77031781F04B002D2849 /* KVSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271F77021781F04B002D2849 /* KVSetupViewController.m */; };
+		2724E76D17905F2C0084D60F /* KVInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2724E76C17905F2C0084D60F /* KVInitialViewController.m */; };
+		2724E76F1790632A0084D60F /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2724E76E1790632A0084D60F /* AddressBookUI.framework */; };
+		273122301794DAE90060AF22 /* Calling-Card Retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 2731222F1794DAE90060AF22 /* Calling-Card Retina.png */; };
+		273122321794DAF10060AF22 /* Calling-Card.png in Resources */ = {isa = PBXBuildFile; fileRef = 273122311794DAF10060AF22 /* Calling-Card.png */; };
 		2767AECE1780B0FF0075B8FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2767AECD1780B0FF0075B8FF /* UIKit.framework */; };
 		2767AED01780B0FF0075B8FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2767AECF1780B0FF0075B8FF /* Foundation.framework */; };
 		2767AED21780B0FF0075B8FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2767AED11780B0FF0075B8FF /* CoreGraphics.framework */; };
@@ -17,10 +24,21 @@
 		2767AEE21780B1000075B8FF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2767AEE11780B0FF0075B8FF /* Default@2x.png */; };
 		2767AEE41780B1000075B8FF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2767AEE31780B1000075B8FF /* Default-568h@2x.png */; };
 		2767AEE71780B1000075B8FF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2767AEE51780B1000075B8FF /* MainStoryboard.storyboard */; };
-		2767AEEA1780B1000075B8FF /* KVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2767AEE91780B1000075B8FF /* KVViewController.m */; };
+		2767AEEA1780B1000075B8FF /* KVFrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2767AEE91780B1000075B8FF /* KVFrontViewController.m */; };
+		2767AEF41780D2D50075B8FF /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2767AEF31780D2D50075B8FF /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		271F76E61781D084002D2849 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		271F76FE1781EFCC002D2849 /* KVBackEmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVBackEmailViewController.h; sourceTree = "<group>"; };
+		271F76FF1781EFCC002D2849 /* KVBackEmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVBackEmailViewController.m; sourceTree = "<group>"; };
+		271F77011781F04B002D2849 /* KVSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVSetupViewController.h; sourceTree = "<group>"; };
+		271F77021781F04B002D2849 /* KVSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVSetupViewController.m; sourceTree = "<group>"; };
+		2724E76B17905F2C0084D60F /* KVInitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVInitialViewController.h; sourceTree = "<group>"; };
+		2724E76C17905F2C0084D60F /* KVInitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVInitialViewController.m; sourceTree = "<group>"; };
+		2724E76E1790632A0084D60F /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		2731222F1794DAE90060AF22 /* Calling-Card Retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Calling-Card Retina.png"; path = "../Calling-Card Retina.png"; sourceTree = "<group>"; };
+		273122311794DAF10060AF22 /* Calling-Card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Calling-Card.png"; path = "../Calling-Card.png"; sourceTree = "<group>"; };
 		2767AECA1780B0FF0075B8FF /* Calling Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calling Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2767AECD1780B0FF0075B8FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2767AECF1780B0FF0075B8FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,8 +53,9 @@
 		2767AEE11780B0FF0075B8FF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2767AEE31780B1000075B8FF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2767AEE61780B1000075B8FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		2767AEE81780B1000075B8FF /* KVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVViewController.h; sourceTree = "<group>"; };
-		2767AEE91780B1000075B8FF /* KVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVViewController.m; sourceTree = "<group>"; };
+		2767AEE81780B1000075B8FF /* KVFrontViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVFrontViewController.h; sourceTree = "<group>"; };
+		2767AEE91780B1000075B8FF /* KVFrontViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVFrontViewController.m; sourceTree = "<group>"; };
+		2767AEF31780D2D50075B8FF /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +63,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2724E76F1790632A0084D60F /* AddressBookUI.framework in Frameworks */,
+				271F76E71781D084002D2849 /* AddressBook.framework in Frameworks */,
+				2767AEF41780D2D50075B8FF /* MessageUI.framework in Frameworks */,
 				2767AECE1780B0FF0075B8FF /* UIKit.framework in Frameworks */,
 				2767AED01780B0FF0075B8FF /* Foundation.framework in Frameworks */,
 				2767AED21780B0FF0075B8FF /* CoreGraphics.framework in Frameworks */,
@@ -53,6 +75,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		271F76EB1781D7D5002D2849 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				271F76FE1781EFCC002D2849 /* KVBackEmailViewController.h */,
+				271F76FF1781EFCC002D2849 /* KVBackEmailViewController.m */,
+				2767AEE81780B1000075B8FF /* KVFrontViewController.h */,
+				2767AEE91780B1000075B8FF /* KVFrontViewController.m */,
+				271F77011781F04B002D2849 /* KVSetupViewController.h */,
+				271F77021781F04B002D2849 /* KVSetupViewController.m */,
+				2724E76B17905F2C0084D60F /* KVInitialViewController.h */,
+				2724E76C17905F2C0084D60F /* KVInitialViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		2767AEC11780B0FF0075B8FF = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +110,9 @@
 		2767AECC1780B0FF0075B8FF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2724E76E1790632A0084D60F /* AddressBookUI.framework */,
+				271F76E61781D084002D2849 /* AddressBook.framework */,
+				2767AEF31780D2D50075B8FF /* MessageUI.framework */,
 				2767AECD1780B0FF0075B8FF /* UIKit.framework */,
 				2767AECF1780B0FF0075B8FF /* Foundation.framework */,
 				2767AED11780B0FF0075B8FF /* CoreGraphics.framework */,
@@ -86,8 +126,7 @@
 				2767AEDC1780B0FF0075B8FF /* KVAppDelegate.h */,
 				2767AEDD1780B0FF0075B8FF /* KVAppDelegate.m */,
 				2767AEE51780B1000075B8FF /* MainStoryboard.storyboard */,
-				2767AEE81780B1000075B8FF /* KVViewController.h */,
-				2767AEE91780B1000075B8FF /* KVViewController.m */,
+				271F76EB1781D7D5002D2849 /* View Controllers */,
 				2767AED41780B0FF0075B8FF /* Supporting Files */,
 			);
 			path = "Calling Card";
@@ -96,6 +135,8 @@
 		2767AED41780B0FF0075B8FF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				273122311794DAF10060AF22 /* Calling-Card.png */,
+				2731222F1794DAE90060AF22 /* Calling-Card Retina.png */,
 				2767AED51780B0FF0075B8FF /* Calling Card-Info.plist */,
 				2767AED61780B0FF0075B8FF /* InfoPlist.strings */,
 				2767AED91780B0FF0075B8FF /* main.m */,
@@ -164,6 +205,8 @@
 				2767AEE21780B1000075B8FF /* Default@2x.png in Resources */,
 				2767AEE41780B1000075B8FF /* Default-568h@2x.png in Resources */,
 				2767AEE71780B1000075B8FF /* MainStoryboard.storyboard in Resources */,
+				273122301794DAE90060AF22 /* Calling-Card Retina.png in Resources */,
+				273122321794DAF10060AF22 /* Calling-Card.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +219,10 @@
 			files = (
 				2767AEDA1780B0FF0075B8FF /* main.m in Sources */,
 				2767AEDE1780B0FF0075B8FF /* KVAppDelegate.m in Sources */,
-				2767AEEA1780B1000075B8FF /* KVViewController.m in Sources */,
+				2767AEEA1780B1000075B8FF /* KVFrontViewController.m in Sources */,
+				271F77001781EFCC002D2849 /* KVBackEmailViewController.m in Sources */,
+				271F77031781F04B002D2849 /* KVSetupViewController.m in Sources */,
+				2724E76D17905F2C0084D60F /* KVInitialViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +310,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Calling Card/Calling Card-Prefix.pch";
 				INFOPLIST_FILE = "Calling Card/Calling Card-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +322,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Calling Card/Calling Card-Prefix.pch";
 				INFOPLIST_FILE = "Calling Card/Calling Card-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -299,6 +347,7 @@
 				2767AEEF1780B1000075B8FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
